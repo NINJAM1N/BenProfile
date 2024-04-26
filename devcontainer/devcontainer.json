@@ -1,0 +1,16 @@
+{
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": ".."
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+      "GitHub.github-vscode-theme"
+    ]
+  }
+},
+    "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
+    "postAttachCommand": "git pull --all",
+    "postCreateCommand": "/bin/bash .devcontainer/startup.sh; sudo apt update && sudo apt install -y gnumeric"
+}
