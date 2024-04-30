@@ -1,0 +1,3 @@
+[34mBash Boy ///////////////////////////////////////////////////////Bash Boy[0m
+[33mwalk right=D       walk left=A      attack(1 space to right)=S[0m
+[33mScore:620[0m
